@@ -24,3 +24,5 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ![image_alt](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
+![image_alt](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
