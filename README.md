@@ -31,4 +31,4 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ### Steps
 
-
+- 
