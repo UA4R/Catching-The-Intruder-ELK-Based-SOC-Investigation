@@ -2,7 +2,7 @@
 
 ## Objectives
 
-To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**, generate a real **SSH** brute force attack against it, and then run an actual **SOC** style investigation on the resulting logs. 
+To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**, generate a real **SSH** brute force attack against it, and then run an  **SOC** style investigation on the resulting logs. 
 
 ### Skills Learnt
 
@@ -31,4 +31,4 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ### Steps
 
-- 
+- Go to AWS account (IAM) user account and launch instance. After Launching instance you name the instance in this case catching the intruder elk
