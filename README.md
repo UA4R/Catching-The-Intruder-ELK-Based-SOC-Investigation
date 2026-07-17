@@ -2,4 +2,23 @@
 
 ## Objectives
 
-to stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**, generate a real **SSH** brute force attack against it, and then run an actual **SOC** style investigation on the resulting logs. 
+To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**, generate a real **SSH** brute force attack against it, and then run an actual **SOC** style investigation on the resulting logs. 
+
+### Skills Learnt
+
+- Launching and configuring an AWS EC2 instance (instance sizing, AMI selection, EBS storage)
+
+- Configuring AWS security groups; least-privilege inbound rules, scoping to specific IPs vs open internet. 
+
+- Understanding the boundary between external (security group controlled) and internal (localhost) traffic.
+
+- Remote server management entirely via SSH, no GUI.
+
+- Managing services with systemctl (start, status, restart) and respecting service dependency order.
+
+- Distinguishing malicious patterns (volume, timing, repetition, source) from legitimate background activity in real, mixed log data.
+
+- Understanding SSH authentication mechanics well enough to deliberately manipulate them.
+
+### Tools Used
+
