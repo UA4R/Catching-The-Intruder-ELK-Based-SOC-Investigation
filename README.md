@@ -31,4 +31,6 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ### Steps
 
-- Go to AWS account (IAM) user account and launch instance. After Launching instance you name the instance in this case catching the intruder elk
+- Go to AWS account (IAM) user account and launch instance from AWS EC2. After Launching instance you name the instance, in this case; catching the intruder elk. For Amazon Machine Image **(AMI)** choose Ubuntu 22.04. For instance type, I went with t3.xlarge 4vCPU 16 GB of RAM. For key pair type, I went with RSA due to its universal compatibility and its been used multiple times. Set the appropriate network settings ( I applied the principle of least privilege and added inbound rules for port 22 and port 5601). For storage **EBS Volume**, I went with 40GB gp3.
+
+- 
