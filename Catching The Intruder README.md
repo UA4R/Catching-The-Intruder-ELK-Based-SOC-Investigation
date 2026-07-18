@@ -57,4 +57,33 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ### 2)Detection & Analysis
 
-- 
+- For this I initiated an ssh brute force after making sure everything was running smoothly. The brute force was a looping python script trying to connect. 
+
+
+- I went ahead to kibana to confirm log flow. I initiated a KQL query to see how many "failed" timestamps we got and from that it would be determined the brute force was initiated successfully and its logs we queried properly. The logs showed were slightly bit inflated as the original outcome expected was 6 and it gave out 12, which was likely due to those same 6-7 failed login lines likely got indexed into Elasticsearch multiple times hence 12 instead of 6. 
+
+
+
+- Discovered one little hiccup, duplicate ingestion caused by sincedb_path, resolved via clean re-index. Resolved it by editing the grok filter so the output should be coming in cleanly, 6, exactly as foresaw. 
+
+
+### 3)Containment, Eradication & Recovery
+
+- The SSH brute force attack happened due to earlier password enablement so I accessed my terminal and swithced the password authentication from a yes to a no.
+
+
+### 4)Post Incident Activity
+
+### Lessons Learnt
+
+- SSH brute force is the most common attack on cloud infrastructure exposed to the internet.
+
+- SIEM detected 100% of attack attempts through real time auth.log monitoring
+
+- Password authentication should never been enabled on production cloud servers . Key based authorization only.
+
+- Principle of least privilege is critical for SOC analyst be it cloud infrastructure or anything else.
+
+### Conclusion
+
+The incident demonstrates the critical importance of continuous monitoring and SIEM deployment in cloud environments. Following NIST SP 800-61 (Incident & Response Framework), the cloud SOC lab successfully detected, analyzed, contained and documented a real world SSH brute force attack pattern using ELK ingesting live logs from an AWS EC2 instance. Finally as a project wrap up, the instance was immediately terminated successfully for cost efficiency in terms of the cloud environment. 
