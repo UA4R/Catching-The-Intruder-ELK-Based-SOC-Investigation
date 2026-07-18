@@ -74,7 +74,7 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 
 ### 3)Containment, Eradication & Recovery
 
-- The SSH brute force attack happened due to earlier password enablement so I accessed my terminal and swithced the password authentication from a yes to a no.
+- The SSH brute force attack happened due to earlier password enablement so I accessed my terminal and switched the password authentication from a yes to a no.
 ![image_alt](https://github.com/UA4R/Catching-The-Intruder-ELK-Based-SOC-Investigation/blob/main/Catching%20the%20Intruder%20screenshots/11.png)
 
 ### 4)Post Incident Activity
