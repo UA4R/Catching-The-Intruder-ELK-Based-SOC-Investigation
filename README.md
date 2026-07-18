@@ -29,7 +29,7 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 ![image_alt](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![image_alt](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Frameworks Used
+### Framework Used
 
 ![image_alt](https://img.shields.io/badge/Framework-NIST%20SP%20800--61-blue?style=for-the-badge)
 
