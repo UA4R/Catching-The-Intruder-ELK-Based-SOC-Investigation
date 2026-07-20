@@ -92,4 +92,4 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 ### Conclusion
 
 The incident demonstrates the critical importance of continuous monitoring and SIEM deployment in cloud environments. Following NIST SP 800-61 (Incident & Response Framework), the cloud SOC lab successfully detected, analyzed, contained and documented a real world SSH brute force attack pattern using ELK ingesting live logs from an AWS EC2 instance. Finally as a project wrap up, the instance was immediately terminated successfully for cost efficiency in terms of the cloud environment. 
-![image_alt](https://github.com/UA4R/Catching-The-Intruder-ELK-Based-SOC-Investigation/blob/main/Catching%20the%20Intruder%20screenshots/12.png?raw=true)
+![image_alt](https://github.com/UA4R/Catching-The-Intruder-ELK-Based-SOC-Investigation/blob/main/Catching%20the%20Intruder%20screenshots/12.1.png?raw=true)
