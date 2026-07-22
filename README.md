@@ -55,7 +55,7 @@ To stand up a working **ELK** based **SIEM** pipeline on **AWS infrastructure**,
 - Next step I took was installing logstash and it came in successfully.
 ![image_alt](https://github.com/UA4R/Catching-The-Intruder-ELK-Based-SOC-Investigation/blob/main/Catching%20the%20Intruder%20screenshots/5.png)
 
-- Next step was install kiabana and it installed successfully.
+- Next step was install kibana and it installed successfully.
 ![image_alt](https://github.com/UA4R/Catching-The-Intruder-ELK-Based-SOC-Investigation/blob/main/Catching%20the%20Intruder%20screenshots/6.png)
 
 ### 2)Detection & Analysis
